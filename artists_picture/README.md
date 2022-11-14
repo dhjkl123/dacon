@@ -51,7 +51,7 @@
 
 <br>
 
-<img src="./img/그림1.png"> </img>
+<img src="./img/그림1.png" align="center"> </img>
 
 <h5 align="center"> < Train Data를 1/4 크기로 Crop > </h4>
 
@@ -70,31 +70,31 @@ Efficientnet-b0 Pre-Trained 모델을 기반으로 이미지에 대한 다양한
 
 <br>
 
-<img src="./img/그림2.png"> </img>
+<img src="./img/그림2.png" align="center"> </img>
 <h5 align="center"> < Vertical Flip Multimodal > </h5>
 
 <br>
 <br>
 
-<img src="./img/그림3.png"> </img>
+<img src="./img/그림3.png" align="center"> </img>
 <h5 align="center"> < Horizontal Flip Multimodal > </h5>
 
 <br>
 <br>
 
-<img src="./img/그림4.png"> </img>
+<img src="./img/그림4.png" align="center"> </img>
 <h5 align="center"> < Gray and Histogram Multimodal > </h5>
 
 <br>
 <br>
 
-<img src="./img/그림5.png"> </img>
+<img src="./img/그림5.png" align="center"> </img>
 <h5 align="center"> < Fourier Transform Multimodal > </h5>
 
 <br>
 <br>
 
-<img src="./img/그림6.png"> </img>
+<img src="./img/그림6.png" align="center"> </img>
 <h5 align="center"> < Color Histogram Multimodal > </h5>
 
 <br>
