@@ -18,8 +18,11 @@
 
 <h2> Train Data Set Analysis </h2>
 
+<div style="text-align : center;"> 
 <img src="./img/DA.png" href='https://dacon.io/competitions/official/236006/codeshare/6978?page=1&dtype=recent'> 
 </img>
+</div>
+
 <h5 align="center">< 데이콘 '이빨없는비둘기'님 데이터 분석 결과 ></h4>
 
 <br>
@@ -51,7 +54,9 @@
 
 <br>
 
-<img src="./img/그림1.png" align="center"> </img>
+<div style="text-align : center;"> 
+<img src="./img/그림1.png" > </img>
+</div>
 
 <h5 align="center"> < Train Data를 1/4 크기로 Crop > </h4>
 
@@ -69,32 +74,41 @@ Efficientnet-b0 Pre-Trained 모델을 기반으로 이미지에 대한 다양한
 원본 이미지 외에 Filp, 색 분포(히스토그램), 흑백 이미지, 주파수영역 등 변수를 추가하여 학습했다. </h4>
 
 <br>
-
-<img src="./img/그림2.png" align="center"> </img>
+<div style="text-align : center;">
+<img src="./img/그림2.png"> </img>
+</div>
 <h5 align="center"> < Vertical Flip Multimodal > </h5>
 
 <br>
 <br>
 
-<img src="./img/그림3.png" align="center"> </img>
+<div style="text-align : center;"> 
+<img src="./img/그림3.png"> </img>
+</div>
 <h5 align="center"> < Horizontal Flip Multimodal > </h5>
 
 <br>
 <br>
 
-<img src="./img/그림4.png" align="center"> </img>
+<div style="text-align : center;"> 
+<img src="./img/그림4.png"> </img>
+</div>
 <h5 align="center"> < Gray and Histogram Multimodal > </h5>
 
 <br>
 <br>
 
-<img src="./img/그림5.png" align="center"> </img>
+<div style="text-align : center;"> 
+<img src="./img/그림5.png"> </img>
+</div>
 <h5 align="center"> < Fourier Transform Multimodal > </h5>
 
 <br>
 <br>
 
-<img src="./img/그림6.png" align="center"> </img>
+<div style="text-align : center;"> 
+<img src="./img/그림6.png"> </img>
+</div>
 <h5 align="center"> < Color Histogram Multimodal > </h5>
 
 <br>
