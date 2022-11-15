@@ -62,28 +62,30 @@
 
 <br>
 
-<h4> Test Data가 원본 그림의 약 1/4의 크기이므로 모델을 학습시킬 때에도 원본 그림의 약 1/4의 크기로 Crop했다. 또, 데이터의 더 많은 구역을 볼 수 있도록 정방향 위치와 정중앙에서  1/4 크기로 Crop 데이터를 추출했다.   </h4>
+ Test Data가 원본 그림의 약 1/4의 크기이므로 모델을 학습시킬 때에도 원본 그림의 약 1/4의 크기로 Crop했다. 또, 데이터의 더 많은 구역을 볼 수 있도록 정방향 위치와 정중앙에서  1/4 크기로 Crop 데이터를 추출했다. 
 
 <br>
 <br>
 
 <h2> Modeling (Multimodal) </h2>
 
-<h4> 
+
 Efficientnet-b0 Pre-Trained 모델을 기반으로 이미지에 대한 다양한 정보를 함께 학습시켜서 학습률을 높이려고 시도했다.
-원본 이미지 외에 Filp, 색 분포(히스토그램), 흑백 이미지, 주파수영역 등 변수를 추가하여 학습했다. </h4>
+원본 이미지 외에 Filp, 색 분포(히스토그램), 흑백 이미지, 주파수영역 등 변수를 추가하여 학습했다. 
 
 <br>
-<div style="text-align : center;">
-<img src="./img/그림2.png"> </img>
-</div>
+
+
+
+<p align="center"> <img src="./img/그림2.png"> </img> </p>
+
 <h5 align="center"> < Vertical Flip Multimodal > </h5>
 
 <br>
 <br>
 
 <div style="text-align : center;"> 
-<img src="./img/그림3.png"> </img>
+<p align="center"> <img src="./img/그림3.png"> </img> </p>
 </div>
 <h5 align="center"> < Horizontal Flip Multimodal > </h5>
 
@@ -91,7 +93,7 @@ Efficientnet-b0 Pre-Trained 모델을 기반으로 이미지에 대한 다양한
 <br>
 
 <div style="text-align : center;"> 
-<img src="./img/그림4.png"> </img>
+<p align="center"> <img src="./img/그림4.png"> </img> </p>
 </div>
 <h5 align="center"> < Gray and Histogram Multimodal > </h5>
 
@@ -99,7 +101,7 @@ Efficientnet-b0 Pre-Trained 모델을 기반으로 이미지에 대한 다양한
 <br>
 
 <div style="text-align : center;"> 
-<img src="./img/그림5.png"> </img>
+<p align="center"> <img src="./img/그림5.png" > </img> </p>
 </div>
 <h5 align="center"> < Fourier Transform Multimodal > </h5>
 
@@ -107,7 +109,7 @@ Efficientnet-b0 Pre-Trained 모델을 기반으로 이미지에 대한 다양한
 <br>
 
 <div style="text-align : center;"> 
-<img src="./img/그림6.png"> </img>
+<p align="center"> <img src="./img/그림6.png"> </img> </p>
 </div>
 <h5 align="center"> < Color Histogram Multimodal > </h5>
 
